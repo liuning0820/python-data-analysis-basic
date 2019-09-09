@@ -76,6 +76,7 @@ in a variety of formats and interactive environments across platforms.
 
 ```shell script
 pip install pyecharts
+python ./pyecharts-demo.py
 ```
 
 
