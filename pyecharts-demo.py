@@ -10,6 +10,6 @@ name = data['name']
 sales = data['sales']
 sales_volume = data['sales_volume']
 pie = Pie()
-pie.add("成交量", name, sales_volume)
+pie.add("成交量", name, sales_volume, is_label_show=True)
 pie.show_config()
-pie.render()
+pie.render("./pyecharts-pie.html")
